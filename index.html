@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrysasynth</title>
+  <link rel="stylesheet" href="./styles.css">
+
+  <script type="importmap">
+  {
+    "imports":{
+      "three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+      "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<main class="experience" id="experience">
+
+  <section class="stage">
+
+    <canvas id="webgl"></canvas>
+
+    <header class="brandbar">
+      <a class="brand" href="#">
+        <span class="brand-mark"></span>
+        <span>CHRYSASYNTH</span>
+      </a>
+
+      <div class="scroll-hint" id="scrollHint">
+        <span>SCROLL</span>
+        <span class="scroll-line"></span>
+      </div>
+    </header>
+
+    <div class="hero-copy" id="heroCopy">
+      <div class="eyebrow">SOUND AS A LIVING SYSTEM</div>
+      <h1>Enter the core.</h1>
+      <p>
+        Interactive sound tools, instruments and sonic environments.
+      </p>
+    </div>
+
+    <section class="final-ui" id="finalUi">
+
+      <div class="final-shell">
+
+        <div class="final-heading">
+          <div class="eyebrow">EXPLORE CHRYSASYNTH</div>
+          <h2>Choose your space.</h2>
+        </div>
+
+        <div class="cards">
+
+          <a class="portal-card" href="/forge">
+            <div class="card-top">
+              <span>01</span>
+              <span class="card-dot"></span>
+            </div>
+
+            <div class="card-main">
+              <h3>Forge</h3>
+              <p>Free interactive sound tools and experiments.</p>
+            </div>
+
+            <div class="card-bottom">
+              <span>Explore tools</span>
+              <span>↗</span>
+            </div>
+          </a>
+
+          <a class="portal-card portal-card--featured" href="/studio">
+            <div class="card-top">
+              <span>02</span>
+              <span class="card-dot"></span>
+            </div>
+
+            <div class="card-main">
+              <h3>Studio</h3>
+              <p>An immediate web instrument for musical exploration.</p>
+            </div>
+
+            <div class="card-bottom">
+              <span>Enter Studio</span>
+              <span>↗</span>
+            </div>
+          </a>
+
+          <a class="portal-card" href="/soundshop">
+            <div class="card-top">
+              <span>03</span>
+              <span class="card-dot"></span>
+            </div>
+
+            <div class="card-main">
+              <h3>SoundShop</h3>
+              <p>Premium sound tools, apps and audio products.</p>
+            </div>
+
+            <div class="card-bottom">
+              <span>Visit shop</span>
+              <span>↗</span>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <div class="veil" id="veil"></div>
+
+  </section>
+
+</main>
+
+<script type="module" src="./main.js"></script>
+
+</body>
+</html>
